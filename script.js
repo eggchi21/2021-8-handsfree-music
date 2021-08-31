@@ -51,8 +51,7 @@ initEverything();
  ************************/
 function initEverything() {
     genie.initialize().then(() => {
-        console.log('🧞‍♀️ ready!');
-        playBtn.textContent = 'Play and Start Webcam';
+        playBtn.textContent = '演奏をスタート';
         playBtn.removeAttribute('disabled');
         playBtn.classList.remove('loading');
     });
@@ -83,7 +82,7 @@ function updateNumButtons(num) {
 }
 
 function startHandsfree() {
-    playBtn.textContent = 'Loading Handsfree...';
+    playBtn.textContent = 'カメラの使用を許可してください！';
     handsfree.start(showMainScreen)
 }
 

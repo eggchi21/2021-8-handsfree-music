@@ -3,8 +3,8 @@ const handsfree = new Handsfree({
     weboji: {
         enabled: true,
     },
-
 })
+
 handsfree.start();
 handsfree.plugin.facePointer.enable();
 
@@ -19,7 +19,6 @@ handsfree.plugin.facePointer.enable();
 
 document.addEventListener('handsfree-data', (event) => {
     const data = event.detail
-
     if (paddleWidth / 2 > data.weboji.pointer.x) {
         paddleX = 0;
     } else if (canvas.width - data.weboji.pointer.x < paddleWidth / 2) {

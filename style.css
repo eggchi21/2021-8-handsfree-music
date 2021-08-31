@@ -6,9 +6,8 @@ html .handsfree-debugger {
 }
 
 html .handsfree-canvas-video {
-    opacity: 0.1
+    opacity: 0.8
 }
-
 
 body {
     padding-top: 100px;
@@ -122,11 +121,11 @@ h1 {
 
 .splash a:link,
 a:visited {
-    color: #CDF352;
+    color: #f35267;
 }
 
 .splash-main b {
-    background: #CDF352;
+    background: #f35267;
     color: black;
     padding: 0 4px;
 }
@@ -178,7 +177,7 @@ a:visited {
 }
 
 .controls button.settings:hover {
-    fill: #CDF352;
+    fill: #f35267;
 }
 
 .controls button span {
@@ -249,18 +248,18 @@ button.splash-button {
     font-family: inherit;
     font-size: 22px;
     display: block;
-    border: 2px solid #CDF352;
+    border: 2px solid #f35267;
     background-color: transparent;
     text-transform: uppercase;
     letter-spacing: 1px;
-    color: #CDF352;
+    color: #f35267;
     text-align: center;
     transition: background-color 0.2s linear;
     width: 400px;
 }
 
 button.splash-button:hover {
-    background-color: #CDF352;
+    background-color: #f35267;
     color: black;
 }
 
@@ -291,9 +290,9 @@ button.splash-button.small {
     width: 80%;
     max-width: 500px;
     transform: translateX(-50%);
-    border: 2px solid #CDF352;
-    -webkit-box-shadow: 8px 8px 0 #CDF352;
-    box-shadow: 8px 8px 0 #CDF352;
+    border: 2px solid #f35267;
+    -webkit-box-shadow: 8px 8px 0 #f35267;
+    box-shadow: 8px 8px 0 #f35267;
     text-align: left;
 }
 
@@ -302,17 +301,16 @@ button.splash-button.small {
     font-family: inherit;
     font-size: 14px;
     border: none;
-    border-bottom: 2px solid #CDF352;
+    border-bottom: 2px solid #f35267;
     background: transparent;
     box-shadow: none;
-    xmargin-bottom: 6px;
-    width: 200px; 
+    width: 200px;
     height: 25px;
 }
 
 .control-indicator {
-    border: solid #CDF352 2px;
-    color: #CDF352;
+    border: solid #f35267 2px;
+    color: #f35267;
     border-radius: 2px;
 }
 
@@ -331,7 +329,7 @@ label.radio>input[type="radio"] {
 }
 
 label.radio>input:checked~.control-indicator {
-    background-color: #CDF352;
+    background-color: #f35267;
 }
 
 label.radio>.control-indicator {
